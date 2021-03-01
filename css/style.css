@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	margin:0px;
+	width: 100vw;
+	background-color: #552D57;
+	float: right;
+    font-size: 20px;
+}
+
+.log{
+	float: right;
+}
+
+section{
+	position: static;
+	background-color: #814585;
+}
+
+.publicidad{
+	height: 200px;
+}
+
+.dest_m{
+	height: 200px;
+}
+
+.dest_p{
+	height: 200px;
+}
+
+nav{
+	padding-top: 10px;
+	margin: 10px;
+	font: Verdana;
+	float: left;
+}
+
+ul.acorh li {
+	list-style: none;
+	display: inline;
+}
+
+ul.acorh li a {
+	display: inline-block;
+	padding: 5px;
+	background-color: #9b5151;
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+footer{
+	background-color:#c539cc;
+	position: relative;
+	bottom:0;
+	height:130px;
+	width:100vw;
+	float: right;
+	text-align: justify;
+	font-size: 16px;
+	font-family: verdana;
+	color:#000;
+	padding: 0px;
+}
+
+.formulario{
+	float: right;
+}
