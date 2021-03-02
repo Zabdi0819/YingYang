@@ -5,10 +5,10 @@
 
 header{
 	margin:0px;
-	width: 100vw;
+	width: 100%;
 	background-color: #552D57;
-	float: right;
     font-size: 20px;
+    height:120px;
 }
 
 .log{
@@ -16,20 +16,28 @@ header{
 }
 
 section{
-	position: static;
 	background-color: #814585;
 }
 
 .publicidad{
 	height: 200px;
+	background-color: blue;
+	width: 88%;
+	margin: auto; 
 }
 
 .dest_m{
 	height: 200px;
+	background-color: white;
+	width: 88%;
+	margin: auto; 
 }
 
 .dest_p{
 	height: 200px;
+	background-color: orange;
+	width: 88%;
+	margin: auto; 
 }
 
 nav{
@@ -60,7 +68,7 @@ footer{
 	position: relative;
 	bottom:0;
 	height:130px;
-	width:100vw;
+	width:100%;
 	float: right;
 	text-align: justify;
 	font-size: 16px;
@@ -69,6 +77,20 @@ footer{
 	padding: 0px;
 }
 
+.rs{
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+
 .formulario{
 	float: right;
+	width: 35%;
+	text-align: center;
+}
+
+.creditos{
+	margin: auto; 
+	width: 30%;
+	text-align: center;
 }
