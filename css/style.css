@@ -21,21 +21,21 @@ section{
 
 .publicidad{
 	height: 200px;
-	background-color: blue;
+	background-color: #D0B4D1;
 	width: 88%;
 	margin: auto; 
 }
 
 .dest_m{
 	height: 200px;
-	background-color: white;
+	background-color: #C990F2;
 	width: 88%;
 	margin: auto; 
 }
 
 .dest_p{
 	height: 200px;
-	background-color: orange;
+	background-color: #C9CAF2;
 	width: 88%;
 	margin: auto; 
 }
