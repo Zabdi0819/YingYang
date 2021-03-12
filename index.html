@@ -4,26 +4,53 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Style et Beauté</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
 	<header>
-		<div class="logo">
-			<h1>LOGO</h1>
-		</div>
-		<div class="log">
-			<h1>Redes sociales</h1>
+		<div class="container">
+		  <div class="row">
+		    <div class="col">
+		      <h1>Style et Beauté</h1>
+		    </div>
+		    <div class="col">
+		      <h1>Redes sociales</h1>
+		    </div>
+		  </div>
 		</div>
 		<div class="menu">
-			<nav>
-            <ul class="acorh">
-            <li><a href="">Inicio</a></li>  
-            <li><a href="">Prendas </a></li>
-            <li><a href="">Maquillaje</a></li>
-            <li><a href="">¿Quiénes somos?</a></li>
-            <li><a href="">Echa un vistazo</a></li>
-            </ul>
-            </nav> 
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  	<div class="container-fluid">
+			    <a class="navbar-brand" href="#">Navbar</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Prendas</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Maquillaje</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">¿Quiénes somos?</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Echa un vistazo</a>
+			        </li>
+			      </ul>
+			      <form class="d-flex">
+			        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			        <button class="btn btn-outline-success" type="submit">Search</button>
+			      </form>
+			    </div>
+  				</div>
+			</nav>
 		</div>
 	</header>
 	<section>
@@ -38,9 +65,13 @@
 		</div>
 	</section>
 	<footer>
-		<div class="rs"> <p>SECCIÓN DE REDES SOCIALES</p> </div>
-		<div class="formulario"><p>FORMULARIO DE EMAILS</p> </div>
-		<div class="creditos"> <p>DERECHOS DE AUTOR</p></div>
+		<div class="container">
+		  <div class="row row-cols-3">
+		    <div class="col"><p class="rs">SECCIÓN DE REDES SOCIALES</p></div>
+		    <div class="col"><p class="creditos">DERECHOS DE AUTOR</p></div>
+		    <div class="col"><p class="formulario">FORMULARIO DE EMAILS</p></div>
+		  </div>
+		</div>
 	</footer>
 </body>
 </html>

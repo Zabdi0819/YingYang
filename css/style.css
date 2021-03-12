@@ -5,14 +5,10 @@
 
 header{
 	margin:0px;
+	padding: 0px;
 	width: 100%;
 	background-color: #552D57;
     font-size: 20px;
-    height:120px;
-}
-
-.log{
-	float: right;
 }
 
 section{
@@ -42,7 +38,6 @@ section{
 
 nav{
 	padding-top: 10px;
-	margin: 10px;
 	font: Verdana;
 }
 
