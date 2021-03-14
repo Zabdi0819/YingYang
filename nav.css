@@ -1,0 +1,14 @@
+.navenlace {
+	display: inline-block;
+	background: mediumvioletred;
+	color: white;
+	padding: 10px 40px;
+	text-decoration: none;
+	font: Arial;
+}
+.navenlace:hover{
+	background: rebeccapurple;
+}
+p, h2{
+	color: white;
+}
