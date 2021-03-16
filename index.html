@@ -5,23 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Style et Beauté</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
 	<header>
 		<div class="container">
 		  <div class="row">
-		  	<div class="col-4">
-		      <img src="img/logo2.jpg">
+		  	<div class="col-sm-12 col-md-12 col-lg-4">
+		      <img id="logo" src="img/logo2.jpg">
 		    </div>
-		    <div class="col-4">
-		      <h1>Style et Beauté</h1>
+		    <div class="col-sm-9 col-md-6 col-lg-5">
+		      <h1 id="titulo">Style et Beauté</h1>
 		    </div>
-		    <div class="col-4">
-		    	<a href="https://www.twitter.com/"><img class="social" src="img/Twitter.png"></a>
-		    	<a href="https://www.instagram.com/"><img class="social" src="img/Instagram.png"></a>
-		    	<a href="https://web.whatsapp.com/"><img class="social" src="img/WhatsApp.png"></a>
-		    	<a href="https://www.facebook.com/"><img class="social" src="img/Facebook.png"></a>
+		    <div class="col-sm-3 col-md-6 col-lg-3">
+		    	<a href="https://www.instagram.com/styleetbeaute2021/?hl=es-la"><img class="social" src="img/Instagram.png"></a>
+		    	<a href="https://www.facebook.com/Style-et-Beaut%C3%A9-102324065280517"><img class="social" src="img/Facebook.png"></a>
 		    </div>	
 		  </div>
 		</div>
@@ -34,19 +33,16 @@
 				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+				          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link" href="#">Prendas</a>
+				          <a class="nav-link" href="prendas.html">Prendas</a>
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link" href="#">Maquillaje</a>
+				          <a class="nav-link" href="maquillaje.html">Maquillaje</a>
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link" href="#">¿Quiénes somos?</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="#">Echa un vistazo</a>
+				          <a class="nav-link" href="qs.html">¿Quiénes somos?</a>
 				        </li>
 				      </ul>
 				    </div>
@@ -55,31 +51,94 @@
 		</div>
 	</header>
 	<section>
-		<div class="publicidad">
-			<h1>PUBLICIDAD</h1>
+		<div class="principal">
+			<img src="img/hero.jpg">
 		</div>
 		<div class="dest_m">
 			<h1>MAQUILLAJE DESTACADO</h1>
+			<div class="container">
+			  	<div class="row">
+			    	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="img/m1.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/m2.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/m3.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/m4.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/m5.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="dest_p">
 			<H1>PRENDAS DESTACADAS</H1>
 			<div class="container">
-		  	<div class="row">
-		    	<div class="col-3"><img class="prendas" src="vestido.png"></div>
-		    	<div class="col-3"><img class="prendas" src="vestido2.png"></div>
-		    	<div class="col-3"><img class="prendas" src="vestido3.png"></div>
-		    	<div class="col-3"><img class="prendas" src="vestido4.png"></div>
-		  	</div>
+			  	<div class="row">
+			    	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="img/p1.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/p2.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/p3.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/p4.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="img/p5.jpeg" class="d-block w-100" alt="...">
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<footer>
 		<div class="container">
-		  <div class="row row-cols-3">
-		    <div class="col"><p class="rs">SECCIÓN DE REDES SOCIALES</p></div>
-		    <div class="col"><p class="creditos">DERECHOS DE AUTOR</p></div>
-		    <div class="col"><p class="formulario">FORMULARIO DE EMAILS</p></div>
+		  <div class="row">
+		  	<div class="col-sm-12 col-md-6 col-lg-6">
+		      <p>¿Quieres contarnos tu proyecto?</p>
+		      <p id="email">Email: styleetbeaute2021@gmail.com</p>
+		    </div>
+		    <div class="col-sm-12 col-md-6 col-lg-6">
+		    	<p>Síguenos en redes: <br></p>
+		    	<a href="https://www.instagram.com/styleetbeaute2021/?hl=es-la"><img class="socialF" src="img/Instagram.png"></a>
+		    	<a href="https://www.facebook.com/Style-et-Beaut%C3%A9-102324065280517"><img class="socialF" src="img/Facebook.png"></a>
+		    </div>	
 		  </div>
+		</div>
+		<div id="da">
+		    <p>Ramírez García Zabdi Zurisadai | Salinas Rodríguez Sergio Alan | TECNM Campus Aguascalientes</p>
 		</div>
 	</footer>
 </body>
