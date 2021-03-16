@@ -9,6 +9,17 @@ header{
 	width: 100%;
 	background-color: #552D57;
     font-size: 20px;
+    font-family:"Playfair display";
+    color: white;
+}
+
+.social{
+	margin: 10px;
+	margin-top: 50px;
+	width: 40px;
+	height: 40px;
+	vertical-align: right;
+	display: inline-block;
 }
 
 section{
@@ -87,13 +98,6 @@ footer{
 	margin: auto; 
 	width: 30%;
 	text-align: center;
-}
-
-.social{
-	width: 40px;
-	height: 40px;
-	vertical-align: right;
-	display: inline-block;
 }
 
 .prendas{
