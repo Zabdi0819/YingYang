@@ -1,0 +1,9 @@
+.logo{
+	width:  170px;
+	float: left;
+}
+.logoText{
+	font-family: 'Arial';
+	font-size: 29px;
+	color: black;
+}
