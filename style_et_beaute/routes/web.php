@@ -42,6 +42,9 @@ Route::get('/productos', function () {
     return view('productos');
 });
 
+Route::get('registro','App\Http\Controllers\RegistroController@registro');
+Route::post('registro/verificar','RegistroController@registrar')->name('registro.verificar');
+
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
 Route::post('/changepass',[UsuariosController::class,'update']);
