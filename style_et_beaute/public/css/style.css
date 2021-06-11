@@ -220,3 +220,10 @@ footer{
   height: 30px;
 }
 
+.productos{
+  font-size: 20px;
+  text-align: center;
+	padding: 15px;
+	background-color: #c8bfd3;
+	font-weight: normal;
+}
