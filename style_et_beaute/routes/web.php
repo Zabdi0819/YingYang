@@ -43,7 +43,6 @@ Route::get('/productos', function () {
 });
 
 
-
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
 Route::post('/changepass',[UsuariosController::class,'update']);
