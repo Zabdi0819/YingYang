@@ -1,11 +1,42 @@
-.jumbotron {
-    background-image: url(../images/ferre.jpg);
-    height: 350px;
-    background-position: center;
-    background-size: cover;
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: 0.3rem;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  *{
+    margin:0px;
+    padding:0px;
+  }
+  
+  header{
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #f1e4f1;
+    font-family:"Playfair display";
+    color: white;
+    text-align: center;
+  }
+  
+  #logo{
+    padding: 10px; 
+    width: 90%;
+  }
+  
+  #logo2{
+    padding: 10px; 
+    width: 30%;
+  }
+  
+  #titulo {	
+    float: left;
+    font-size:50px;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px pink;
+    animation: jackInTheBox;
+    animation-duration: 3s;
+  }
+  
+  .social{
+    margin: 10px;
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
   }

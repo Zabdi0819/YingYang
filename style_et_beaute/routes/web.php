@@ -17,6 +17,11 @@ use App\Http\Controllers\UsuariosController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('index');
+});
+
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
 Route::post('/changepass',[UsuariosController::class,'update']);
