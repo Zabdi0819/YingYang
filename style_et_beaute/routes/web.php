@@ -42,7 +42,10 @@ Route::get('/productos', function () {
     return view('productos');
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa01e29bc740c7378b49c0a428ec4765c09bb98d
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
 Route::post('/changepass',[UsuariosController::class,'update']);
