@@ -18,8 +18,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
+Route::get('/index', function () {
     return view('index');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/politicas', function () {
+    return view('politicas');
+});
+
+Route::get('/qs', function () {
+    return view('qs');
+});
+
+Route::get('/registro', function () {
+    return view('registro');
 });
 
 Route::get('/search',[UsuariosController::class,'show']);
@@ -30,7 +46,7 @@ Route::post('/addUser',[UsuariosController::class,'store']);
 Route::view('/student','welcome');
 Route::view('/cards','welcome');
 Route::view('/about','welcome');
-Route::view('/login','welcome');
+Route::view('/login','login');
 Route::view('/ejemplillo','welcome');
 Route::view('/hola','welcome');
 Route::view('/change','welcome');

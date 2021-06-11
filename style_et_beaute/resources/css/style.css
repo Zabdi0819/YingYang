@@ -40,3 +40,102 @@
     height: 40px;
     display: inline-block;
   }
+
+  @media (min-width: 501px) {
+	#titulo {	
+		font-size:55px;
+	}
+
+	#logo{
+		padding: 10px; 
+		width: 80%;
+	}
+
+	.social{
+		width: 30px;
+		height: 30px;
+	}
+
+	.socialF{
+		width: 30px;
+		height: 30px;
+	}
+
+	footer{
+		font-size: 20px;
+	}
+
+	#email{
+		font-size: 15px;
+	}
+
+	.dest_p img{
+		height: 450px;
+	}
+
+	.dest_m img{
+		height: 450px;
+	}
+
+	section h1{
+		font-size: 30px;
+	}
+
+	.qs img{
+		width: 300px;
+		height: 200px;
+	}
+
+	.qs h1{
+		font-size: 50px;
+	}
+
+	.qs p{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1199.98px) { 
+	#titulo {	
+		font-size:65px;
+	}
+
+	#logo{
+		padding: 10px; 
+		width: 90%;
+	}
+
+	.social{
+		width: 40px;
+		height: 40px;
+	}
+
+	.socialF{
+		width: 40px;
+		height: 40px;
+	}
+
+	footer{
+		font-size: 25px;
+	}
+
+	#email{
+		font-size: 20px;
+	}
+
+	.dest_p img{
+		height: 550px;
+	}
+
+	.dest_m img{
+		height: 550px;
+	}
+
+	section h1{
+		font-size: 50px;
+	}
+
+	.qs img{
+		width: 400px;
+		height: 300px;
+	}
