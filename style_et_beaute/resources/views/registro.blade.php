@@ -29,7 +29,7 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="usuario">Usuario de Instagram</label>
-                                    <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario de Instagram" class="form-control">
+                                    <input type="text" name="usuario_ig" id="usuario_ig" placeholder="Ingrese su usuario de Instagram" class="form-control">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -48,26 +48,28 @@
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script>
-        $(function(){
+        $(function (){
             enviarRegistro();
         });
 
-        var enviarRegistro = function(){
-            $("#frmRegistro").on("submit", function (e){
+        var enviarRegistro = function (){
+            $("#frmRegistro").on("submit",function (e){
                 e.preventDefault();
 
                 $.ajax({
-                    url: '{{route('registro.verificar')}}',
+                    url:'{{route('registro.verificar')}}',
                     method: 'POST',
                     dataType:'json',
                     data: new FormData($("#frmRegistro")[0]),
-                    contenType: false,
+                    contentType: false,
                     processData: false,
                     beforeSend:function (){
                         console.log("Enviando");
                     },
-                    success: function (data){
+                    success:function (data){
                         console.log(data);
                     },
                     error:function (data){

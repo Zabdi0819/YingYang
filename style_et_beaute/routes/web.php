@@ -43,7 +43,7 @@ Route::get('/productos', function () {
 });
 
 Route::get('registro','App\Http\Controllers\RegistroController@registro');
-Route::post('registro/verificar','RegistroController@registrar')->name('registro.verificar');
+Route::post('registro/verificar','App\Http\Controllers\RegistroController@registrar')->name('registro.verificar');
 
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
