@@ -38,6 +38,10 @@ Route::get('/registro', function () {
     return view('registro');
 });
 
+Route::get('/productos', function () {
+    return view('productos');
+});
+
 Route::get('/search',[UsuariosController::class,'show']);
 Route::get('/delete',[UsuariosController::class,'destroy']);
 Route::post('/changepass',[UsuariosController::class,'update']);
