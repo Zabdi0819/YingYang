@@ -15,7 +15,7 @@ use App\Http\Controllers\UsuariosController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/index', function () {
@@ -39,7 +39,8 @@ Route::get('/registro', function () {
 });
 
 Route::get('/productos', function () {
-    return view('productos');
+    $productosList = DB::table('producto')->get();
+    return view('productos', ['productosLista' => $productosList]);
 });
 
 Route::get('/search',[UsuariosController::class,'show']);
