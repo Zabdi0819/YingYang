@@ -15,9 +15,8 @@ class CreateUsuario extends Migration
     {
         Schema::create('vendedor', function (Blueprint $table) {
             $table->id();
+            $table->string('apellidos', 100);
             $table->string('nombre', 100);
-            $table->string('usuario', 10)->unique();
-            $table->string('contraseña', 15);
             $table->string('correo', 100)->unique();
             $table->string('usuario_ig', 20)->unique();
             $table->string('telefono', 10);
